@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Zoosite">
+	<test name="Adoption">  
+		<classes>
+			<class name="zoosite.runner.SmokeTest"/>
+			<class name="zoosite.runner.FunctionTest"/>
+		</classes>
+	</test>
+</suite>
